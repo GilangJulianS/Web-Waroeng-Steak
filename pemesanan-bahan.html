@@ -1,0 +1,75 @@
+<html>
+<head>
+	<title>Pemesanan Bahan | Waroeng Steak and Shake</title>
+
+	<!-- css template -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- css bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	<!-- css custom -->
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+	
+</head>
+<body>
+	<div class="top">
+		<div class="form-pemesanan">
+			<div class="header">
+				<h1>Form Pemesanan</h1>
+				<span>Isi Form di Bawah Ini</span>
+			</div>
+			<div class="form-before">
+				<button class="btn btn-default add-form" type="submit" id="tambah-bahan">+ Tambah Bahan</button>
+			</div>
+			<div class="form-content">
+			<form class="form-inline" id="form-bahan">
+				<div class="content-parent">
+					<div class="content">
+						<div class="form-group nama-bahan">
+							<label>Nama Bahan</label>
+							<select class="form-control">
+								<option>Bahan 1</option>
+								<option>Bahan 1</option>
+								<option>Bahan 1</option>
+							</select>
+						</div>
+						<div class="form-group jumlah-bahan">
+							<label>Jumlah</label>
+							<input type="text" class="form-control form-jumlah" value="Jumlah" onfocus="this.value='';" onblur="if(this.value=='') {this.value = 'Jumlah'}">
+						</div>
+					</div>
+				</div>
+				<div>
+					<button class="btn btn-default send-button" id="send-button">Submit</button>
+				</div>
+			</form>
+			<div class="bottom-bar"></div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+			var text = '<div class="content">\
+					<div class="form-group nama-bahan">\
+						<label>Nama Bahan</label>\
+						<select class="form-control">\
+							<option>Bahan 1</option>\
+							<option>Bahan 1</option>\
+							<option>Bahan 1</option>\
+						</select>\
+					</div>\
+					<div class="form-group jumlah-bahan">\
+						<label>Jumlah</label>\
+						<input type="text" class="form-control form-jumlah" value="Jumlah" onfocus="this.value=\' \';" onblur="if(this.value==\' \')\
+							{this.value = \'Jumlah\'}">\
+					</div>\
+					</div>';
+
+			$(".add-form").click(function(e) {
+				$(".content-parent").append(text);
+			});
+	</script>
+</html>
