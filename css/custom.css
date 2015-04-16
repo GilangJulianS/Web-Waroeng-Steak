@@ -166,8 +166,18 @@ div.list-pesanan {
 	color: #fff;
 }
 
+.cust-btn{
+	background-color: #45473d;
+	color: #fff;
+}
+
 #lihat-pesanan:hover, #rekap-pesanan:hover, #send-button:hover {
 	background-color: #6e7161;
+}
+
+.cust-btn:hover{
+	background-color: #6e7161;
+	color: #fff;
 }
 
 .bottom-bar {
@@ -234,6 +244,11 @@ div.list-pesanan {
 }
 
 #pesanan-outlet {
+	margin: 0;
+	padding: 15px;
+}
+
+.header-pesanan{
 	margin: 0;
 	padding: 15px;
 }
