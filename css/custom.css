@@ -186,7 +186,7 @@ div.list-pesanan {
 	width: 400px;
 	height: 8px;
 	background-color: #5a5a4b;
-	bottom: 50px;
+	bottom: 110px;
 }
 
 /* pop up */
@@ -256,4 +256,8 @@ div.list-pesanan {
 div.tabel-pesanan {
 	height: 300px;
 	overflow-y: auto; 
+}
+
+.response{
+	visibility: hidden;
 }

@@ -42,7 +42,7 @@
 		<div id="openModal" class="modalDialog">
 				<div>
 					<!-- <a href="#close" title="Close" class="close">X</a> -->
-					<h1 class="header-pesanan">Daftar Pesanan</h1>
+					<h1 class="header-pesanan">Rekap Pesanan</h1>
 					<div class="tabel-pesanan">
 						<table id="single-outlet-table" class="table table-striped">
 
@@ -133,6 +133,7 @@
 				success: function(data){
 					$("#table-pesanan-gen").html(data);
 					$(".cust-btn").click(function(){
+						$(".header-pesanan").text("Daftar Pesanan");
 						var mydata = 'id-pesanan=' + $(this).attr('id').substr(14,14);
 						$.ajax({
 							type: "POST",
@@ -161,6 +162,7 @@
 
 		$("#rekap-pesanan").click(function(){
 			var newData = "tanggal="+$("#tanggal").val();
+			$(".header-pesanan").text("Rekap Pesanan");
 			$.ajax({
 				type: "POST",
 				url: "list-bahan-all.php",

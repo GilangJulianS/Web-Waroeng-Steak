@@ -10,7 +10,7 @@
     $username = mysqli_real_escape_string($con, $_POST['username']);
 
     //add query tabel pesanan
-    $date = "".date("Y-m-d");
+    $date = date("Y/m/d H:i:s");
     $sql_pesanan = "INSERT INTO pesanan (tanggal, username_pemesan) VALUES ('$date', '$username')";
     if (!mysqli_query($con, $sql_pesanan)) {
         die('Error: ' . mysqli_error($con));

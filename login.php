@@ -12,10 +12,11 @@
 	if(mysqli_num_rows($result) > 0){
 		$row = mysqli_fetch_assoc($result);
 		if($password == $row["password"]){	
-			echo '<div id="username">'.$row["username"].'</div>';
+			echo '	<div id="user">'.$row["username"].'</div>
+					<div id="role">'.$row["status"].'</div>';
 		}
 	}else{
-		echo '<div id="username">null</div>';
+		echo 'null';
 	}
 
 	mysqli_close($con);
