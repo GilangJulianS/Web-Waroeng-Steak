@@ -237,3 +237,8 @@ div.list-pesanan {
 	margin: 0;
 	padding: 15px;
 }
+
+div.tabel-pesanan {
+	height: 300px;
+	overflow-y: auto; 
+}
