@@ -35,27 +35,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pemesanan-bahan.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pemesanan-bahan.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pemesanan-bahan.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.423077" vertical-offset="690" max-vertical-offset="1921">
-              <caret line="55" column="86" selection-start-line="55" selection-start-column="86" selection-end-line="55" selection-end-column="86" />
+            <state vertical-scroll-proportion="0.94014084" vertical-offset="1251" max-vertical-offset="1887">
+              <caret line="105" column="7" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
               <folding>
-                <marker date="1429184043664" expanded="true" signature="2386:2991" placeholder="..." />
-                <marker date="1429184043664" expanded="true" signature="2428:2511" placeholder="..." />
-                <marker date="1429184043664" expanded="true" signature="2428:2657" placeholder="..." />
-                <marker date="1429184043664" expanded="true" signature="2528:2644" placeholder="..." />
-                <marker date="1429184043664" expanded="true" signature="2701:2783" placeholder="..." />
-                <marker date="1429184043664" expanded="true" signature="2701:2978" placeholder="..." />
+                <marker date="1429184686218" expanded="true" signature="2384:2509" placeholder="..." />
+                <marker date="1429184686218" expanded="true" signature="2426:2509" placeholder="..." />
+                <marker date="1429184686218" expanded="true" signature="2699:2781" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pesan_bahan.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pesan_bahan.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pesan_bahan.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5851979" vertical-offset="0" max-vertical-offset="581">
+            <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="527">
               <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="true" />
@@ -90,8 +87,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pemesanan-bahan.html" />
         <option value="$PROJECT_DIR$/pesan_bahan.php" />
+        <option value="$PROJECT_DIR$/pemesanan-bahan.html" />
       </list>
     </option>
   </component>
@@ -246,21 +243,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pemesanan-bahan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.423077" vertical-offset="690" max-vertical-offset="1921">
-          <caret line="55" column="86" selection-start-line="55" selection-start-column="86" selection-end-line="55" selection-end-column="86" />
-          <folding>
-            <marker date="1429184043664" expanded="true" signature="2386:2991" placeholder="..." />
-            <marker date="1429184043664" expanded="true" signature="2428:2511" placeholder="..." />
-            <marker date="1429184043664" expanded="true" signature="2428:2657" placeholder="..." />
-            <marker date="1429184043664" expanded="true" signature="2528:2644" placeholder="..." />
-            <marker date="1429184043664" expanded="true" signature="2701:2783" placeholder="..." />
-            <marker date="1429184043664" expanded="true" signature="2701:2978" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../IF3110-01-Simple-Blog/new_post.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="408">
@@ -279,11 +261,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pesan_bahan.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5851979" vertical-offset="0" max-vertical-offset="581">
+        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="527">
           <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
             <marker date="1429184065499" expanded="true" signature="449:566" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pemesanan-bahan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.94014084" vertical-offset="1251" max-vertical-offset="1887">
+          <caret line="105" column="7" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
+          <folding>
+            <marker date="1429184686218" expanded="true" signature="2384:2509" placeholder="..." />
+            <marker date="1429184686218" expanded="true" signature="2426:2509" placeholder="..." />
+            <marker date="1429184686218" expanded="true" signature="2699:2781" placeholder="..." />
           </folding>
         </state>
       </provider>
